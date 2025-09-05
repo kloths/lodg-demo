@@ -14,3 +14,8 @@ export interface Plan {
   includesPlan?: string;
   billing: "one-time" | "monthly" | "annual";
 }
+
+export interface Question {
+  question: string;
+  answer: string;
+}
