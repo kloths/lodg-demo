@@ -12,7 +12,9 @@ const Logo = () => {
           fill
         />
       </div>
-      <span className="text-lg font-bold sm:text-xl">{config.name}</span>
+      <span className="font-poppins text-lg font-bold sm:text-xl">
+        {config.name}
+      </span>
     </div>
   );
 };
